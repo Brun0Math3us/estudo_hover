@@ -1,0 +1,29 @@
+/* Estilizando um link */
+
+.exemplo:hover{
+    background-color: yellow;
+}
+
+/* Estilizando links não visitados, visitados, suspensos e ativos */
+
+/* link não visitado */
+.exemplo1:link{
+    color: green;
+}
+
+/* mouse no link */
+.exemplo1:hover{
+    color: red;
+}
+
+/* clicando no link */
+
+.exemplo1:active{
+    color: yellow;
+}
+
+/* link visitado */
+
+.exemplo1:visited{
+    color: cyan;
+}
