@@ -62,3 +62,15 @@ a.ex5:hover, a.ex5:active{
 a.ex5:visited, a.ex5:link{
     text-decoration: none;
 }
+
+/* Passe o mouse em um elemento para mostrar outro elemento*/
+
+.ex6{
+    background-color: lightblue;
+    padding: 20px;
+    display: none;
+}
+
+span:hover + .ex6{
+    display: block;
+}
